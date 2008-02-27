@@ -1,0 +1,49 @@
+---
+name: CGI-QuickApp-Blog
+version: 0.27
+author:
+  - 'Dirk Lindner <lze@cpan.org>'
+abstract: perl based Weblog and CMS
+license: lgpl
+resources:
+  license: http://opensource.org/licenses/artistic-license.php
+requires:
+  CGI: '>=3.29'
+  CGI::QuickApp: '>=0.27'
+  CGI::QuickForm: '>=1.93'
+  DBI: '>=1.50'
+  DBI::Library: '>=0.27'
+  HTML::Editor: '>=0.27'
+  HTML::Menu::Pages: '>=0.27'
+  HTML::Menu::TreeView: '>=0.85'
+  HTML::Parser: '>=3.56'
+  HTML::TabWidget: '>=0.27'
+  HTML::Window: '>=0.27'
+  MD5: '>=2.03'
+  Module::Build: '>=0.2808'
+  Syntax::Highlight::Perl: '>=1.00'
+  Template::Quick: '>=0.27'
+  Test::More: '>=0.7'
+  Test::Pod: '>=1.26'
+  Test::Pod::Coverage: '>=0.55'
+provides:
+  CGI::QuickApp::Blog:
+    file: lib/CGI/QuickApp/Blog.pm
+    version: 0.27
+  CGI::QuickApp::Main:
+    file: lib/CGI/QuickApp/Main.pm
+    version: 0.27
+  DBI::Library::Database:
+    file: lib/DBI/Library/Database.pm
+    version: 0.27
+  DBI::Library::Database::db:
+    file: lib/DBI/Library/Database.pm
+  DBI::Library::Database::st:
+    file: lib/DBI/Library/Database.pm
+  Template::Quick::Thread:
+    file: lib/Template/Quick/Thread.pm
+    version: 0.27
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

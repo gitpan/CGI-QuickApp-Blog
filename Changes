@@ -1,0 +1,15 @@
+Revision history for Perl CGI::QuickApp::Blog 0.27
+0.27 some fixes
+
+0.26
+
+    Overwrought Docs and clean up code, fix build System
+
+0.25
+     -a few fixes
+0.24
+     -refactoring.
+
+0.01  Sun Jan 22 01:37:35 2006
+	- original version; created by h2xs 1.23 with options
+		-XAn  CGI::QuickApp::Blog
